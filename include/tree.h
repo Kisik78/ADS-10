@@ -47,6 +47,7 @@ class Tree {
       buildTree(root->leaf[i], path);
     }
   }
+ 
  public:
   std::string operator[](int i) const {
     if (i >= perm.size()) {
